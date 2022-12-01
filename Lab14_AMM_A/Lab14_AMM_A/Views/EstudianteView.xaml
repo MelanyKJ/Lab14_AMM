@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab14_AMM_A.Views.EstudianteView">
+    <ContentPage.Content>
+        <StackLayout x:Name="viewStackLayout" Padding="10">
+            <Label
+                    Text="Nombre: ">
+            </Label>
+            <Entry
+                    Text="{Binding Nombre}"
+                    Placeholder="Nombre">
+            </Entry>
+
+            <Label
+                    Text="Apellido: ">
+            </Label>
+            <Entry
+                    Text="{Binding Apellido}"
+                    Placeholder="Apellido">
+            </Entry>
+
+
+            <Label
+                    Text="Direccion: ">
+            </Label>
+            <Entry
+                    Text="{Binding Direccion}"
+                    Placeholder="Direccion">
+            </Entry>
+
+
+            <Label
+                    Text="Dni: ">
+            </Label>
+            <Entry
+                    Text="{Binding Dni}"
+                    Placeholder="Dni">
+            </Entry>
+            <ListView x:Name="lvEstudiante" ItemsSource="{Binding Estudiantes}" BackgroundColor="{Binding Color}" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Nombre}"></Label>
+                                <Label Text="{Binding Apellido}"></Label>
+                                <Label Text="{Binding Direccion}"></Label>
+                                <Label Text="{Binding Dni}"></Label>
+                                <Button Text="Edit" Command="{Binding BindingContext.SelectOneCommand, Source={x:Reference viewStackLayout}}" CommandParameter="{Binding EstudianteId}"/>
+
+                                <Button Text="X" Command="{Binding BindingContext.DeleteCommand, Source={x:Reference viewStackLayout}}" CommandParameter="{Binding EstudianteId}"/>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

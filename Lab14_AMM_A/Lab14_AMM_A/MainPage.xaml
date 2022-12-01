@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab14_AMM_A.MainPage">
+    <StackLayout>
+        <Entry Placeholder="Enter Nombre" x:Name="txtNombre" HorizontalOptions="FillAndExpand"/>
+        <Entry Placeholder="Enter Apellido" x:Name="txtApellido" HorizontalOptions="FillAndExpand"/>
+        <Entry Placeholder="Enter Direccion" x:Name="txtDireccion" HorizontalOptions="FillAndExpand"/>
+        <Entry Placeholder="Enter Dni" x:Name="txtDni" HorizontalOptions="FillAndExpand"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Save" Clicked="Button_Clicked"/>
+            <Button Text="Show" Clicked="Button_Clicked_1"/>
+
+        </StackLayout>
+        <Entry Placeholder="Filter" x:Name="txtFilter" HorizontalOptions="FillAndExpand"/>
+        <Button Text="ShowByText" Clicked="Button_Clicked_2"/>
+
+        <ListView x:Name="lvEstudiante">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="{Binding Nombre}"></Label>
+                            <Label Text="{Binding Apellido}"></Label>
+                            <Label Text="{Binding Direccion}"></Label>
+                            <Label Text="{Binding Dni}"></Label>
+                        </StackLayout>
+
+
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

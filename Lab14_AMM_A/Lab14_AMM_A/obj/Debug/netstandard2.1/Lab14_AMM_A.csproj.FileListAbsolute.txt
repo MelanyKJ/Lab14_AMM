@@ -1,0 +1,16 @@
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Lab14_AMM_A.csproj.AssemblyReference.cache
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Lab14_AMM_A.GeneratedMSBuildEditorConfig.editorconfig
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\App.xaml.g.cs
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\MainPage.xaml.g.cs
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Views\EstudianteView.xaml.g.cs
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Lab14_AMM_A.AssemblyInfoInputs.cache
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Lab14_AMM_A.AssemblyInfo.cs
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Lab14_AMM_A.csproj.CoreCompileInputs.cache
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\bin\Debug\netstandard2.1\Lab14_AMM_A.deps.json
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\bin\Debug\netstandard2.1\Lab14_AMM_A.dll
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\bin\Debug\netstandard2.1\Lab14_AMM_A.pdb
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\XamlC.stamp
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Lab14_AMM_A.dll
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\refint\Lab14_AMM_A.dll
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\Lab14_AMM_A.pdb
+C:\Ciclos\5° ciclo\Multiplataforma\Ejercicios\Lab14_AMM_A\Lab14_AMM_A\Lab14_AMM_A\obj\Debug\netstandard2.1\ref\Lab14_AMM_A.dll
