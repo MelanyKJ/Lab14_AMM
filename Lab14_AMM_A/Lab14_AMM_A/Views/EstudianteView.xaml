@@ -1,9 +1,16 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Lab14_AMM_A.Views.EstudianteView">
+             x:Class="Database2022.Views.EstudianteView">
     <ContentPage.Content>
         <StackLayout x:Name="viewStackLayout" Padding="10">
+            <Label 
+                Text="Registro" 
+                TextColor="Navy"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                    >
+            </Label>
             <Label
                     Text="Nombre: ">
             </Label>
@@ -37,7 +44,8 @@
                     Text="{Binding Dni}"
                     Placeholder="Dni">
             </Entry>
-            <ListView x:Name="lvEstudiante" ItemsSource="{Binding Estudiantes}" BackgroundColor="{Binding Color}" >
+            <Button Text="💾" Command="{Binding InsertCommand}" FontAttributes="Bold" Background="#5469D1"/>
+            <ListView x:Name="lvEstudiante" ItemsSource="{Binding Estudiantes}" BackgroundColor="{Binding Color}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -46,9 +54,9 @@
                                 <Label Text="{Binding Apellido}"></Label>
                                 <Label Text="{Binding Direccion}"></Label>
                                 <Label Text="{Binding Dni}"></Label>
-                                <Button Text="Edit" Command="{Binding BindingContext.SelectOneCommand, Source={x:Reference viewStackLayout}}" CommandParameter="{Binding EstudianteId}"/>
+                                <Button Text="✏️" Command="{Binding BindingContext.SelectOneCommand, Source={x:Reference viewStackLayout}}" CommandParameter="{Binding EstudianteId}" Background="#9CD154"/>
 
-                                <Button Text="X" Command="{Binding BindingContext.DeleteCommand, Source={x:Reference viewStackLayout}}" CommandParameter="{Binding EstudianteId}"/>
+                                <Button Text="🗑️" Command="{Binding BindingContext.DeleteCommand, Source={x:Reference viewStackLayout}}" CommandParameter="{Binding EstudianteId}" Background="#D15454"/>
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
